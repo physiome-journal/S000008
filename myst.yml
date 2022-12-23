@@ -1,0 +1,45 @@
+version: 1
+project:
+  title: Computational Modelling of Glucose Uptake in the Enterocyte
+  authors:
+    - name: Nima Afshar
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+      corresponding: true
+      email: nima.afshar@auckland.ac.nz
+    - name: Soroush Safaei
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+    - name: David P. Nickerson
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+    - name: Peter J. Hunter
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+    - name: Vinod Suresh
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+        - Department of Engineering Science, University of Auckland,New Zealand
+  keywords:
+    - PHYSIOME
+    - CellML
+    - OpenCOR
+    - Computational modeling
+    - Glucose uptake
+  open_access: true
+  license: CC-BY-4.0
+site:
+  projects:
+    - slug: S000008
+      path: .
+  nav: []
+  actions:
+    - title: paper
+      url: Afshar2020PhysiomeS000008.pdf
+      static: true
+    - title: omex
+      url: Afshar2020PhysiomeS000008.omex
+      static: true
+    - title: primary
+      url: https://doi.org/unknown
+  title: Computational Modelling of Glucose Uptake in the Enterocyte
