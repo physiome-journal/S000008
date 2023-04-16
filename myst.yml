@@ -1,6 +1,10 @@
 version: 1
 project:
   title: Computational Modelling of Glucose Uptake in the Enterocyte
+  description: >-
+    An implemented model of glucose absorption in the enterocyte, as previously
+    published by Afshar et al. (2019).
+  thumbnail: thumbnail.png
   authors:
     - name: Nima Afshar
       orcid: 0000-0002-6671-6920
@@ -50,6 +54,9 @@ project:
     - Glucose uptake
   open_access: true
   license: CC-BY-4.0
+  numbering:
+    heading_2: true
+    heading_3: true
   subject: Original
   date: 2020/10/01
   doi: 10.36903/physiome.13034423
