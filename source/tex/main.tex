@@ -31,7 +31,7 @@
 \maketitle
 
 \begin{abstract}
-We describe an implemented model of glucose absorption in the enterocyte, as previously published by Afshar et al. \cite{afshar2019computational}, The model used mechanistic descriptions of all the responsible transporters and was built in the CellML framework. It was validated against published experimental data and implemented in a modular structure which allows each individual transporter to be edited independently from the other transport protein models. The composite model was then used to study the role of the sodium-glucose
+We describe an implemented model of glucose absorption in the enterocyte, as previously published by \cite{afshar2019computational}, The model used mechanistic descriptions of all the responsible transporters and was built in the CellML framework. It was validated against published experimental data and implemented in a modular structure which allows each individual transporter to be edited independently from the other transport protein models. The composite model was then used to study the role of the sodium-glucose
 cotransporter (SGLT1) and the glucose transporter type 2 (GLUT2), along with the requirement for the existence of the apical Glut2 transporter, especially in the presence of high luminal glucose loads, in order to enhance the absorption. Here we demonstrate the reproduction of the figures in the original paper by using the associated model.
 \end{abstract}
 
@@ -41,7 +41,7 @@ cotransporter (SGLT1) and the glucose transporter type 2 (GLUT2), along with the
 
 \section{Introduction}
 
-In the primary paper, a validated computational model was proposed for explaining glucose uptake from intestinal lumen into epithelial cell. The main goal of this paper is to show that the figures in the primary paper can be reproduced by using the correlated model in the PMR. Results from the model were compared with experimental results from Zheng et al. \citep{zheng2012mechanisms} which studied the glucose uptake on two different cell lines - Caco2 and IEC6 - by using varying concentration of glucose (0.5 - 50 mM).
+In the primary paper, a validated computational model was proposed for explaining glucose uptake from intestinal lumen into epithelial cell. The main goal of this paper is to show that the figures in the primary paper can be reproduced by using the correlated model in the PMR. Results from the model were compared with experimental results from \citet{zheng2012mechanisms} which studied the glucose uptake on two different cell lines - Caco2 and IEC6 - by using varying concentration of glucose (0.5 - 50 mM).
 Here we introduce a quick instruction to reproduce each figure in the original paper. 
 
 \section{Model description}
@@ -145,7 +145,7 @@ concentrations of glucose, E - sodium, F - potassium, G - chloride and H - pH ar
 \label{fig02}
 \end{figure}
 
-\textit{Comparison with the Thorsen et. al model \citep{thorsen2014transepithelial}}\newline
+\textit{Comparison with the \cite{thorsen2014transepithelial} model}\newline
 
 In the next step the results from our model were compared to results from Thorsen model under the same condition. Model outputs were normalised against the steady state values of the Thorsen model and are shown in \autoref{fig03}. We implemented the Thorsen model in CellML which can be found in the PMR link \footnote{\url{https://models.physiomeproject.org/workspace/5b8}}. All the values in our model are normalised against the corresponding steady-state values in the Thorsen model as described in the python script. \newpage
 
