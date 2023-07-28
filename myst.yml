@@ -61,10 +61,7 @@ project:
   date: 2020/10/01
   doi: 10.36903/physiome.13034423
 site:
-  projects:
-    - slug: S000008
-      path: .
-  nav: []
+  title: Computational Modelling of Glucose Uptake in the Enterocyte
   actions:
     - title: paper
       url: Afshar2020PhysiomeS000008.pdf
@@ -74,4 +71,5 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.3389/fphys.2019.00380
-  title: Computational Modelling of Glucose Uptake in the Enterocyte
+  domains:
+    - physiome-S000008.curve.space
